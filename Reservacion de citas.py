@@ -23,17 +23,6 @@ InputFecha = str(input("Para que día desearía hacer su reserva: "))
 InputFecha = InputFecha.lower()
 
 #Entregador de numero del 0 al 4 por fecha
-def CambiarFecha (fecha): 
-  Dias = ["lunes", "martes", "miercoles", "jueves", "viernes"]
-  i = 0
-  if fecha == InputFecha:
-    FechaMatriz = i
-  else:
-    i = i + 1
-  return fecha
-  
-FechaMatriz = CambiarFecha (InputFecha)
-
 if InputFecha == "lunes":
   FechaMatriz = 0
 elif InputFecha == "martes":
